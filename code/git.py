@@ -32,7 +32,7 @@ fetch_user_repositories(username)
 
 
 import openai
-openai.api_key = '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'
+openai.api_key = 'Your-openai-key'
 def generate_prompt(code):
     # Customize the prompt structure based on your requirements
     prompt = f"Code Complexity Analysis:\n\n```python\n{code}\n```\n\nEvaluate the technical complexity and challenges in the code."
@@ -62,7 +62,7 @@ def fetch_user_repositories(github_url):
     username = extract_username(github_url)
     
     # Authenticate with a GitHub token if needed
-    g = Github("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")
+    g = Github("Your github API")
     
     # Fetch the user object
     user = g.get_user(username)
