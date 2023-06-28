@@ -10,11 +10,12 @@ Github is used to store all our works, projects and many more. It is also used t
 - Feature 2: Find complex code.
 
 ## Installation
-
-pip install requests
-Pip install github
-pip install openai
-pip install urllib
+'''
+$ pip install requests
+$ pip install github
+$ pip install openai
+$ pip install urllib
+'''
 
 ## Contributing
 
